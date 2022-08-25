@@ -6,6 +6,7 @@ class BasePage {
   static visit() {
     cy.visit(this.url, { failOnStatusCode: false });
   }
+  
 }
 
 export default BasePage;
